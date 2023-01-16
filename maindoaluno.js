@@ -13,22 +13,21 @@ function start()
     //Sempre que o botão iniciar é pressionado, queremos que a área de texto fique vazia. 
     //Para isso, estamos atualizando a textarea com um valor vazio. Quando alteramos o conteúdo html, qual código utilizamos?
 
-    Textbox.??? = ""; 
-    // Essa função start é um função prefedinida do API Web speech e irá iniciar
-    //a conversão de fala para texto
+    Textbox.??? = "";
+    //Utilize a função started na variavel recognition para a API iniciar
+    
     recognition.???();
 } 
 //A função 'onresult' tem todos os valores da fala convertidos em texto
 //por tanto, para obter esse texto convertido de onresult, precisamos escrever um código
 //como esse:
 recognition.??? = function(event) {
-//Exiba esse evento no console
- ???
+console.log(event); 
 
 //O código 'var Content = event.results[0][0].transcript;'
 //tem nossa saída de voz para texto, portanto, vamos armazená-la dentro de uma variável
 ???
-//Agora exiba essa variável
+//Agora exiba essa variável na teça e no console
     Textbox.innerHTML = ???;
     console.log(???);
 
@@ -58,7 +57,9 @@ function speak(){
         //Coloque o nome da função que salva a imagem
         ???();
         //Defina em quantos milisegundos a foto será tirada
-    }, 5000);
+        //5000 para 5 segundos
+        //1000 para 1 segundo
+    }, ????);
 }
 
  
