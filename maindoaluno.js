@@ -5,8 +5,7 @@
 //A variável recognition precisa criar uma nova API do Web Speech, então utilize o código 'new' e coloque a variável criada na primeira linha
 var recognition = ???();
 
-//No html, você tem um elemento que se chama 'textarea', nele aparecerá o texto que a API reconheceu
-//Guarde esse texto dentro da variável Textbox
+//Utilize o código que pega o TextBox do html e guarde dentro de uma vaiável
 var Textbox = ???; 
 
 function start()
